@@ -14,7 +14,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gateway-proxy</name>
 	<description>Demo project for Spring Boot</description>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/pilgrim2go/gateway-proxy</url>
+        </repository>
+    </distributionManagement> 
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR7</spring-cloud.version>
