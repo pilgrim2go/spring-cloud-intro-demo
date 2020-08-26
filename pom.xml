@@ -4,11 +4,17 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.olgamaciaszek</groupId>
+	<groupId>io.github.pilgrim2go</groupId>
 	<artifactId>spring-cloud-intro-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/pilgrim2go/spring-cloud-intro-demo</url>
+        </repository>
+    </distributionManagement> 
 	<modules>
 		<module>gateway-proxy</module>
 		<module>card-service</module>
