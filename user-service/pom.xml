@@ -9,11 +9,18 @@
 		<version>2.3.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.github.olgamaciaszek</groupId>
+	<groupId>io.github.pilgrim2go</groupId>
 	<artifactId>user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>user-service</name>
 	<description>Demo project for Spring Boot</description>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/pilgrim2go/spring-cloud-intro-demo</url>
+        </repository>
+    </distributionManagement> 
 
 	<properties>
 		<java.version>1.8</java.version>
